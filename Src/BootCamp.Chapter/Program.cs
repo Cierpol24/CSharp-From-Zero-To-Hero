@@ -6,8 +6,12 @@ namespace BootCamp.Chapter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+              Console.Write("Enter your height (cm): ");
+
+               double height = Convert.ToDouble(Console.ReadLine());
+              //double height = Console.ReadLine();
+
+            Console.WriteLine((height)+ " cm");
 
         }
     }
